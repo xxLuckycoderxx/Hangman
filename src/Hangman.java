@@ -15,7 +15,6 @@ public class Hangman {
         story= mac.nextLine();
 
 
-for(int damage=1;damage<6;damage++){
 
 
 
