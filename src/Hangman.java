@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Hangman {
     public static void main (String[]args){
         
-     String extraInfo;   
+    /* String extraInfo;
      String name;
      String story;
      String guess="school";
@@ -23,18 +23,14 @@ public class Hangman {
 
 for(int net=1;net<7;net++){
    
- if(           ){
+ if(){
      System.out.println(point-1+" tries left");
  }
      
     
 } 
  
-
-
-
-
-
+*/
 
 
 
@@ -44,30 +40,21 @@ for(int net=1;net<7;net++){
 
 
     }
-    public static void hangedMan(){
+    public static void hangedMan() {
 
-  System.out.println(+----------------------------------);      
-  System.out.println(|                |                  );      
-  System.out.println(|                |                  );      
-  System.out.println(|                O                  );      
-  System.out.println(|         ----   1 ------                 );      
-  System.out.println(|                |                  );      
-  System.out.println(|                |                  );      
-  System.out.println(|              /    \                );      
-  System.out.println(|             /       \              );      
-  System.out.println(|           _ /         \_            );      
-  System.out.println(|                                  );      
-  System.out.println(+----------------------------------);      
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        /*System.out.println("+----------------------------------");
+        System.out.println("|                |                  ");
+        System.out.println("|                |                  ");
+        System.out.println("|                O                  ");
+        System.out.println("|         ----   1 ------           ");
+        System.out.println("|                |                  ");
+        System.out.println("|                |                  ");
+        System.out.println("|              /    \               ");
+        System.out.println("|             /       \             ");
+        System.out.println("|           _/        \_          ");
+        System.out.println("|                                   ");
+        System.out.println("+---------------------------------- ");
+*/
+    }
 }
 
