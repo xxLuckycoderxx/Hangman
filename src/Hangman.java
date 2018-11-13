@@ -44,6 +44,30 @@ for(int net=1;net<7;net++){
 
 
     }
-    public static void(
+    public static void hangedMan(){
+
+  System.out.println(+----------------------------------);      
+  System.out.println(|                |                  );      
+  System.out.println(|                |                  );      
+  System.out.println(|                O                  );      
+  System.out.println(|         ----   1 ------                 );      
+  System.out.println(|                |                  );      
+  System.out.println(|                |                  );      
+  System.out.println(|              /    \                );      
+  System.out.println(|             /       \              );      
+  System.out.println(|           _ /         \_            );      
+  System.out.println(|                                  );      
+  System.out.println(+----------------------------------);      
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 }
 
