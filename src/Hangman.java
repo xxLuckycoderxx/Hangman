@@ -36,7 +36,7 @@ for(int net=1;net<7;net++){
  System.out.println("Would you like to give up if so type (0)in the space below ");
 String exit=mac.nextLine();
  int quit=0;
- if(exit== 0) {
+ if(exit.equals(quit)) {
      System.exit(0);
 
   System.out.println("Now that you have gotten used to the  game why dont you choose a gender for your hangperson\n type either male or female ");
