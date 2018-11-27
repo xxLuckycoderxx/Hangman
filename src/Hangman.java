@@ -44,6 +44,7 @@ String exit=mac.nextLine();
 
   System.out.println("So how are you liking the game so far from a scale of 1-10 ");
   int rating=mac.nextInt();
+     System.out.pritnln("Thank you for your time");
  }
     }
 
