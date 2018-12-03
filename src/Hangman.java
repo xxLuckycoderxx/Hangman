@@ -33,23 +33,34 @@ for(int net=1;net<7;net++){
  
 */
 
+Scanner mac=new Scanner(System.in);
+System.out.println("Hello");
+String numb=mac.nextLine().toLowerCase();
+
+
+System.out.println(cammera(6));
+
+
+
+
  System.out.println("Would you like to give up if so type (0)in the space below ");
 String exit=mac.nextLine();
  int quit=0;
  if(exit.equals(quit)) {
      System.exit(0);
 
-  System.out.println("Now that you have gotten used to the  game why dont you choose a gender for your hangperson\n type either male or female ");
-  String gender=mac.nextline();
+  System.out.println("Now that you have gotten used to the  game why don't you choose a gender for your hangperson\n type either male or female ");
+  String gender=mac.nextLine();
 
   System.out.println("So how are you liking the game so far from a scale of 1-10 ");
   int rating=mac.nextInt();
+  System.out.println("Thank you for your time");
  }
     }
 
-    public static void hangedMan() {
+    public static String hangedMan(String image) {
 
-        /*System.out.println("+---------------------------------");
+        System.out.println("+---------------------------------");
         System.out.println("|                |                  ");
         System.out.println("|                |                  ");
         System.out.println("|                O                  ");
@@ -61,9 +72,18 @@ String exit=mac.nextLine();
         System.out.println("|           _/        \_            ");
         System.out.println("|                                   ");
         System.out.println("+---------------------------------- ");
-*/
-    }
+
+    }return image;
+
+    
    public static int pharmacy(int a,int b){
         return a+b;
+      }
+      public static int cammera(int a ){
+     return a;
+      }
+
+      public static String Game(String[]guessPhraseBreakdown){
+      }  return String [] guessPhraseBreakdown;
    }
-}
+
