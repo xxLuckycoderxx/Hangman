@@ -54,7 +54,11 @@ String exit=mac.nextLine();
 
   System.out.println("So how are you liking the game so far from a scale of 1-10 ");
   int rating=mac.nextInt();
+<<<<<<< HEAD
   System.out.println("Thank you for your time");
+=======
+     System.out.pritnln("Thank you for your time");
+>>>>>>> master
  }
     }
 
@@ -86,4 +90,8 @@ String exit=mac.nextLine();
       public static String Game(String[]guessPhraseBreakdown){
       }  return String [] guessPhraseBreakdown;
    }
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> master
