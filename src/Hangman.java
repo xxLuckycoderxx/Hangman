@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Hangman {
     public static void main(String[] args) {
         
-    /* String extraInfo;
+     String extraInfo;
      String name;
      String story;
      String guess="school";
-       
-     int points =6;
+     String input;
+     int point =6;
         Scanner mac=new Scanner(System.in);
         
     System.out.println("Hello my name is Mac and we are going to play a game.Before that ,what is your name?");    
@@ -18,20 +18,20 @@ public class Hangman {
 
         System.out.println("BACKSTORY");
         story= mac.nextLine();
-     System.outprintln("Anything else you want to write about about your character?Include it below")
-     extraInfo.nextLine();
+     System.out.println("Anything else you want to write about about your character?Include it below");
+     extraInfo=mac.nextLine();
 
 for(int net=1;net<7;net++){
    
- if(){
-     System.out.println(point-1+" tries left");
+   if(input.equals(4)){
+       System.out.println(point-1+" tries left");
+
+   }
 
 
-    }
 
-} 
+
  
-*/
 
 
 
@@ -41,19 +41,12 @@ for(int net=1;net<7;net++){
 
 
 
-        Scanner mac = new Scanner(System.in);
-        String macross="school";
 
-        System.out.println("print the stuff");
-        String input=mac.nextLine();
 
-        if(input.equals("school")){
-            System.out.println("That's a wrap");
-        }
 
         System.out.println("You have completed the game so do you have any suggestions on how to improve it ?\nSuggestion;");
         String suggestions=mac.nextLine();
-        System.out.println("Yhank youv for yuor input");
+        System.out.println("Yhank you for your input");
 
         System.out.println("Give me some commentary \n Commentary");
         String comments=mac.nextLine();
@@ -63,13 +56,6 @@ for(int net=1;net<7;net++){
 
 
 
-
-
-/*        System.out.println("Hello");
-        String numb = mac.nextLine().toLowerCase();
-
-        String word="school";
-        char array[] = new char[6];
 
 
 
@@ -92,10 +78,16 @@ for(int net=1;net<7;net++){
 
             System.out.println("Thank you for your time");
 
+
+        }
+        static void hangedMan(){
+
         }
     }
 
-    public static String hangedMan(String image){
+
+
+    public static String hangedMan()
 
         System.out.println("+--------------------------------- ");
         System.out.println("|                |                 ");
@@ -104,18 +96,10 @@ for(int net=1;net<7;net++){
         System.out.println("|           ---- 1------           ");
         System.out.println("|                |                 ");
         System.out.println("|               _|_                ");
-        System.out.println("|              |    |              ");
-        System.out.println("|              |    |              ");
-        System.out.println("|             _|    |_             ");
+        System.out.println("|              |   |              ");
+        System.out.println("|              |   |              ");
+        System.out.println("|             _|   |_             ");
         System.out.println("|                                  ");
         System.out.println("+----------------------------------");
 
-    }*/
-    }
-     static void  compass(String code []){
-         System.out.println(compass(String code[] = new code.split());
-
-
-     }
-}
 
